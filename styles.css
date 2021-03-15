@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+     font-family: Avenir LT Std\ 85 Heavy,Champagne \& Limousines; 
+     font-family: 'Fjalla One', sans-serif; 
+} 
+*/
+
+header {
+    width: 100%;
+    background-color: rgba(65, 105, 225, 0.692);
+    display: flex; 
+    justify-content: center;
+}
+
+h1 {
+
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    width: 90%;
+    min-width: 288px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 288px;
+    height: auto;
+    margin-top: 10px;
+    justify-content:center;
+    padding: 10px 10px;
+    margin: 10px;
+
+}
+
+.aboutMe h2 {
+    width: 80%;
+    text-align: center;
+}
+
+.aboutMe p {
+    width: 80%;
+    text-align: center;
+}

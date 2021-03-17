@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+/* html {
+    min-width: 350px;
+} */
+
 /* body {
      font-family: Avenir LT Std\ 85 Heavy,Champagne \& Limousines; 
      font-family: 'Fjalla One', sans-serif; 
@@ -12,7 +16,8 @@
 
 header {
     width: 100%;
-    background-color: rgba(65, 105, 225, 0.692);
+    /* max-width: 900px; */
+    /* background-color: rgba(65, 105, 225, 0.692); */
     display: flex; 
     justify-content: center;
 }
@@ -20,7 +25,7 @@ header {
 h1 {
 
     margin-bottom: 10px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     width: 90%;
     min-width: 288px;
     font-size: 30px;
@@ -30,22 +35,70 @@ h1 {
 .aboutMe {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgba(65, 105, 225, 0.692);
     width: 100%;
     min-width: 288px;
     height: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     justify-content:center;
-    padding: 10px 10px;
-    margin: 10px;
-
+    padding: 10px 0px;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
 }
 
 .aboutMe h2 {
-    width: 80%;
+    width: 90%;
     text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+
 }
 
 .aboutMe p {
-    width: 80%;
+    /* width: 90%; */
+    max-width: 800px;
+    padding: 0px 15px 10px ;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.8rem;
+    /* margin: 0px 10px; */
+
+}
+
+.aboutMe a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.aboutMe a:hover {
+    text-decoration: underline;
+}
+
+.aboutMe a:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.);
+}
+
+.general {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-width: 288px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.general h2 {
+    width: 90%;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.books {
+    display: block;
+    width: 75px;
+    height: auto;
+    align-self: center;
+    margin: 0 auto 10px;
 }
